@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Floating Sidebar Simplified + Paste into ChatGPT",
+  "version": "1.4",
+  "description": "Sidebar with prompts and a context menu to paste text into ChatGPT. Allows adding, editing, reordering, and deleting prompts from the popup.",
+  "author": "Ignacio Mariscal",
+  "permissions": ["scripting", "tabs", "contextMenus", "webNavigation", "storage"],
+  "host_permissions": [
+    "https://chat.openai.com/*",
+    "https://chatgpt.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://chatgpt.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Floating Sidebar",
+    "default_popup": "popup.html"
+  }
+}

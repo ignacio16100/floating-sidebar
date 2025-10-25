@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Floating Sidebar Settings</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h1>Floating Sidebar</h1>
+  <p>Manage your prompts and reload the sidebar.</p>
+
+  <section>
+    <h2>Add prompt</h2>
+    <label for="prompt-name">Name</label>
+    <input id="prompt-name" type="text" placeholder="e.g., Summary" />
+    <label for="prompt-text">Text</label>
+    <textarea id="prompt-text" rows="6" placeholder="Prompt content..."></textarea>
+    <button id="add-prompt">Add</button>
+  </section>
+
+  <section>
+    <h2>Current prompts</h2>
+    <div id="prompts-list"></div>
+  </section>
+
+  <button id="reload-sidebar">Reload Sidebar</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
