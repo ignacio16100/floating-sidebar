@@ -1,7 +1,7 @@
 # Floating Sidebar — Paste into ChatGPT
 
 ![Floating Sidebar Screenshot](https://github.com/ignacio16100/floating-sidebar/blob/main/screenshot-1.jpg?raw=true)
-![Floating Sidebar Screenshot](https://github.com/ignacio16100/floating-sidebar/blob/main/screenshot-2.jpg?raw=true)
+![Floating Sidebar Screenshot](https://raw.githubusercontent.com/ignacio16100/floating-sidebar/main/screenshot-2.jpg?raw=true)
 
 ## 🧩 About
 
