@@ -33,3 +33,10 @@ You can add, edit, and remove your prompts directly from the popup menu.
 
 If you find it useful, feel free to star ⭐ the repo or share feedback on GitHub issues.  
 Made with ❤️ by [Ignacio1610](mailto:ignacio1610@gmail.com)
+
+---
+
+## ☕ Support the project
+
+If you'd like to support my work, you can donate via PayPal:  
+👉 [paypal.me/diarioneco](https://paypal.me/diarioneco)
