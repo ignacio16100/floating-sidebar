@@ -32,4 +32,4 @@ You can add, edit, and remove your prompts directly from the popup menu.
 ## 💬 Feedback
 
 If you find it useful, feel free to star ⭐ the repo or share feedback on GitHub issues.  
-Made with ❤️ by [Ignacio Mariscal](mailto:ignacio1610@gmail.com)
+Made with ❤️ by [Ignacio1610](mailto:ignacio1610@gmail.com)
